@@ -1,8 +1,15 @@
-# main.py RoboGarden Age Calculation
+# main.py RoboGarden Calculator
 # Demian Swindells 2/5/2024
 
-start_year = int(input("Enter the Year that either a Person or an Item was created:"))
-end_year = int(input("Enter the current year:"))
-age = end_year - start_year
+first_number = int(input("Enter the First Number:"))
+second_number = int(input("Enter the Second Number:"))
 
-print(age)
+sum = first_number + second_number
+subtraction = first_number - second_number
+multiplication = first_number * second_number
+division = first_number / second_number
+
+print("Addition: " , sum)
+print("Subtraction: ", subtraction)
+print("Multiplication: ", multiplication)
+print("Division: ", division)
